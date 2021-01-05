@@ -19,7 +19,7 @@ export default function (main) {
       draw() {
         pipes.pipeList.forEach(list => {
           const pipeRandomY = list.y
-          const spacePipes = 92
+          const spacePipes = 150
 
           const pipeSkyX = list.x
           const pipeSkyY = pipeRandomY
